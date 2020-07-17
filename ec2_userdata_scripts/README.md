@@ -17,8 +17,6 @@ Copy and paste the content of each of these scripts to the EC2 user data section
 12. Get some soda and wait
 13. Access your server application *http://{application-dns-name}:{port-number}*
 
-```
-
 ## Authors
 
 * *Sai Dilip Ponnaganti*
