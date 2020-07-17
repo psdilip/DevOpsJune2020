@@ -1,9 +1,8 @@
 # EC2 User Data Scripts
 
-Copy and paste the content of each of these scripts to the EC2 user data section before you provision the instance. User Data is a section inside your EC2 which allows you to put in commands as plain text so you can automate tasks. Commands inside each script will automate the process of deploying the application, all you have to do is sit back and relax. Type in http://<application-dns-name>:<port-number> after few minutes,
+Copy and paste the content of each of these scripts to the EC2 user data section before you provision the instance. User Data is a section inside your EC2 which allows you to put in commands as plain text so you can automate tasks. Commands inside each script will automate the process of deploying the respective application.
 
 ## Getting Started
-
 1. In your AWS Console, open EC2 service
 2. Click on Launch Instance
 3. Select RedHat AMI
@@ -16,7 +15,7 @@ Copy and paste the content of each of these scripts to the EC2 user data section
 10. Either use exiting key-pair or create a new one
 11. Click on Launch Instance
 12. Get some soda and wait
-13. Access your server application *http://<application-dns-name>:<port-number> *
+13. Access your server application *http://{application-dns-name}:{port-number}*
 
 ```
 
